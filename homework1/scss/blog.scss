@@ -1,0 +1,57 @@
+
+.blog-container{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-around;
+  .blog-holder{
+    height: 100%;
+    width: 45%;
+    border: 1px solid #000;
+    .blog-image-branch{
+      height: 50%;
+      width: 100%;
+      background-image: url(../images/branch.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .blog-image-computer{
+      height: 50%;
+      width: 100%;
+      background-image: url(../images/computer.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .blog-image-research{
+      height: 50%;
+      width: 100%;
+      background-image: url(../images/research.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .blog-image-board{
+      height: 50%;
+      width: 100%;
+      background-image: url(../images/board.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    h3{
+      margin-top: 15px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+      color: #424242;
+      font-size: 20px;
+      margin-left: 15px;
+    }
+    p{
+      margin-left: 15px;
+      font-size: 10px;
+    }
+  }
+}
